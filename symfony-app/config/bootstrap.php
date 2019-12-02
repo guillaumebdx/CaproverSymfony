@@ -2,7 +2,7 @@
 
 use Symfony\Component\Dotenv\Dotenv;
 
-var_dump(scandir(__DIR__));
+var_dump(scandir(dirname(__DIR__)));
 die;
 require dirname(__DIR__).'/vendor/autoload.php';
 
