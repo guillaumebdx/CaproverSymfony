@@ -55,7 +55,7 @@ RUN rm -rf /etc/nginx/sites-enabled
 RUN mkdir -p /etc/nginx/sites-enabled
 
 RUN chmod -R 777 /var/www/public
-RUN php bin/console cache:clear
+#RUN php bin/console cache:clear
 
 
 # Expose port 80 and start php-fpm server
